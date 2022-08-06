@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.judul-porto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.porto-web li{
+    text-align: left;
+    list-style-type: none;
+}
+
+.judul-porto-web{
+    font-family: 'Roboto', sans-serif;
+}
+
+.porto-web{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portoweb1, .portoweb2{
+    padding: 10px;
+    flex: 50%;
+}
+
+.img-porto1{
+    height: 300px;
+}
+
+.img-porto2{
+    height: 300px;
+}
+
+.porto1-mobile{
+    display: none;
+}
+
+.judul-porto-tulis{
+    font-family: 'Roboto', sans-serif;
+}
+
+.porto-tulis li{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skripsi{
+    margin-left: 1.5%;
+}
+
+@media (max-width: 800px) {
+    .portoweb1, .portoweb2 {
+      flex: 100%;
+    }
+    .img-porto1, .img-porto2{
+        width: 100%;
+    }
+  }

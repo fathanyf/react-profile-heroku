@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+ul{
+    /* list-style-type: none; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* pengalaman */
+.judul-pengalaman{
+    font-family: 'Roboto', sans-serif;
+}
+.Pengalaman{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.Pengalaman, .hardskill li{
+    margin-left: 2%;
+}
+
+
+
+.bahasa li {
+    margin-left: 2%;
+}
+
+.pendidikan{
+    padding: 10px;
+    flex: 50%;
+}
+
+.pekerjaan{
+    padding: 10px;
+    flex: 50%;
+}
+
+.Pengalaman ul{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Pengalaman li{
+    text-align: left;
+}
+
+.Pengalaman h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.kemampuan{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.kemampuan h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.kemampuan li{
+    text-align: left;
+}
+
+.hardskill, .frontend,
+.bahasa, .Softskill{
+    padding: 10px;
+    flex: 50%;
+}
+
+
+.sertifikat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 10px;
+    flex: 50%; 
+}
+
+.sertifikat li{
+    text-align: left;
+    margin-left: 2%;
+    list-style: none;
+}
+
+.img-sert2{
+    border: 2px solid black;
+}
+
+.date-text{
+    margin-top: -3%;
+}
+
+@media (max-width: 800px) {
+    .hardskill, .frontend,
+    .bahasa, .Softskill,
+    .pendidikan, .pekerjaan {
+      flex: 100%;
+    }
+
+    .frontend, .Softskill{
+        margin-left: 2%;
+    }
+  }
