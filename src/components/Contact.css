@@ -30,11 +30,14 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .buttom{
-    padding-bottom: 13%;
+    padding-bottom: 17%;
 }
 
 @media (max-width: 800px) {
     .konten-kontak-umum, .konten-kontak-sosmed {
       flex: 100%;
+    }
+    .buttom{
+        padding-bottom: 55%;
     }
   }

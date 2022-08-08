@@ -15,7 +15,7 @@ const Contact = () => {
           <div class="row">
             <i class="fas fa-user"></i>
               <div class="info">
-                <div class="head">Nama</div>
+                <div class="head"><strong>Nama</strong></div>
                 <div class="sub-title">Fathan Yuda Febrianda</div>
               </div>
           </div>
@@ -23,7 +23,7 @@ const Contact = () => {
           <div class="row">
             <i class="fas fa-map-marker-alt"></i>
               <div class="info">
-                <div class="head">Alamat</div>
+                <div class="head"><strong>Alamat</strong></div>
                 <div class="sub-title">Menteng, Jakarta Pusat</div>
               </div>
           </div>
@@ -31,7 +31,7 @@ const Contact = () => {
           <div class="row">
             <i class="fas fa-fax"></i>
               <div class="info">
-                <div class="head">Telefon</div>
+                <div class="head"><strong>Telefon</strong></div>
                 <div class="sub-title">0857-3321-1563</div>
               </div>
           </div>
@@ -39,7 +39,7 @@ const Contact = () => {
           <div class="row">
             <i class="fas fa-envelope"></i>
               <div class="info">
-                <div class="head">Email</div>
+                <div class="head"><strong>Email</strong></div>
                 <div class="sub-title">fathanupn17@gmail.com</div>
               </div>
           </div>
@@ -52,7 +52,7 @@ const Contact = () => {
         <div class="row">
                <i class="fab fa-linkedin-in"></i>
               <div class="info">
-                <div class="head">linkedin</div>
+                <div class="head"><strong>linkedin</strong></div>
                 <div class="sub-title"><a href="https://www.linkedin.com/in/fathanyf/">Fathan Yuda Febrianda</a></div>
               </div>
           </div>
@@ -60,7 +60,7 @@ const Contact = () => {
           <div class="row">
               <i class="fab fa-github"></i>
               <div class="info">
-                <div class="head">Github</div>
+                <div class="head"><strong>Github</strong></div>
                 <div class="sub-title"><a href="https://github.com/fathanyf">fathanyf</a></div>
               </div>
           </div>

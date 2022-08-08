@@ -31,9 +31,21 @@ ul{
     flex: 50%;
 }
 
+.judul-pendidikan{
+    margin-left: -5%;
+}
+
+.pendidikan ul{
+    margin-left: -2.5%;
+}
+
 .pekerjaan{
     padding: 10px;
     flex: 50%;
+}
+
+.pekerjaan ul{
+    margin-left: -1%;
 }
 
 .Pengalaman ul{
@@ -46,6 +58,10 @@ ul{
 
 .Pengalaman h2{
     font-family: 'Roboto', sans-serif;
+}
+
+.judul-pekerjaan{
+    margin-left: -4%;  
 }
 
 .kemampuan{
@@ -66,6 +82,22 @@ ul{
 .bahasa, .Softskill{
     padding: 10px;
     flex: 50%;
+}
+
+.frontend ul{
+    margin-left: 3%;
+}
+
+.Softskill ul{
+    margin-left: 3%;
+}
+
+.bahasa ul{
+    margin-left: 1%;
+}
+
+.hardskill ul{
+    margin-left: 1%;
 }
 
 
@@ -96,6 +128,22 @@ ul{
     .bahasa, .Softskill,
     .pendidikan, .pekerjaan {
       flex: 100%;
+    }
+
+    .judul-hardskill{
+        margin-left: -3%;
+    }
+
+    .judul-frontend{
+        margin-left: -5%;
+    }
+
+    .judul-bahasa{
+        margin-left: -3%;
+    }
+
+    .judul-softskill{
+        margin-left: -5%;
     }
 
     .frontend, .Softskill{

@@ -27,7 +27,7 @@ const About = () => {
       </div>
 
       <div className="pekerjaan">
-        <h2>Pengalaman Pekerjaan dan Kegiatan</h2>
+        <h2 className="judul-pekerjaan">Pengalaman Pekerjaan dan Kegiatan</h2>
         <div>
           <ul>
             <li><strong>Staf Homestay</strong>
@@ -66,7 +66,7 @@ const About = () => {
 
     <section className="kemampuan">
       <div className="hardskill">
-        <h2>Hard Skill</h2>
+        <h2 className="judul-hardskill">Hard Skill</h2>
         <ul>
           <li>Microsoft Word.</li>
           <li>Microsoft Excel.</li>
@@ -90,7 +90,7 @@ const About = () => {
       </div>
 
       <div className="bahasa">
-        <h2>Bahasa</h2>
+        <h2 className="judul-bahasa">Bahasa</h2>
         <ul>
           <li>Bahasa Indonesia.</li>
           <li>Bahasa Malaysia.</li>
@@ -100,7 +100,7 @@ const About = () => {
       </div>
 
       <div className="Softskill">
-        <h2>Soft Skill</h2>
+        <h2 className="judul-softskill">Soft Skill</h2>
         <ul>
           <li>Kerja teliti atau <i>detail-oriented</i>.</li>
           <li>Disiplin waktu.</li>
@@ -129,9 +129,11 @@ const About = () => {
         </li>
       </div>
       <div className="portoweb2">
-      <li><strong>Full Stack Web Development Bootcamp Certification</strong>
+      <li><strong>Teknik Pengumpulan Data dari Jejak Digital
+        <br/> Open Source Intelligence (OSINT)
+      </strong>
         <br/>
-        <p><strong>Binar Academy</strong></p>
+        <p><strong>Anak Teknik Indonesia</strong></p>
         <br/>
         <p className="date-text">15 Agustus 2021</p>
         <img src="./foto/osint-web.png" alt="porto-homestay" className="img-porto1"/>
